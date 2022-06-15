@@ -1,0 +1,625 @@
+@media print{
+	.bg-yellow{
+	}
+}
+
+/* ::  test inputan
+------------------------------------------- */
+.test{
+	z-index: -1;
+}
+.page-break-after-always{
+	page-break-before: always;
+}
+.bg-yellow{
+	background-color: yellow;
+}
+.blue{
+	color: blue;
+}
+.red{
+	color: red;
+}
+.background-blue{
+	background-color: blue;
+	opacity: 0,5;
+}
+.background-grey{
+	background-color: grey;
+}
+.background-green{
+	background-color: green;
+}
+.background-yellow{
+	background-color: yellow;
+}
+.box_l{
+	left: 250px;
+    top: 15px;
+}
+.box_r{
+	right: 850px;
+    top: 15px;
+}
+.test1{
+	position: absolute;
+	display: inline;
+	left: 100px;
+	top: 100px;
+}
+.test2{
+	border-color: 1pt solid red !important;
+}
+/* ::  initialize
+------------------------------------------- */
+body{
+	margin:0pt;
+}
+
+/* ::  Specialize
+------------------------------------------- */
+.bidang-sket{
+	border-style:double;
+	border-width:3pt;
+	height:140mm;
+}
+.bidang-sket-cover{
+	border-style:double;
+	border-width:3pt;
+	height:70mm;
+}
+
+
+
+.helper-201{
+	padding-height:0;
+}
+
+
+
+/* ::  Font Type
+------------------------------------------- */
+.font-roman{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	letter-spacing:0.3pt;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.font-bookman{
+	font-family: "Bookman Old Style"; 
+    font-size: 12pt;
+}
+/* ::  Font style
+------------------------------------------- */
+.italic{
+	font-style: italic;
+}
+
+/* ::  Font Size
+------------------------------------------- */
+.font-size-6{
+	font-size: 6pt;
+}
+.font-size-7{
+	font-size: 7pt;
+}
+.font-size-8{
+	font-size: 8pt;
+}
+.font-size-9{
+	font-size: 9pt;
+}
+.font-size-10{
+	font-size: 10pt;
+}
+.font-size-11{
+	font-size: 11pt;
+}
+.font-size-12{
+	font-size: 12pt;
+}
+.font-size-14{
+	font-size: 14pt;
+}
+.font-size-16{
+	font-size: 16pt;
+}
+.font-size-18{
+	font-size: 18pt;
+}
+.font-size-20{
+	font-size: 20pt;
+}
+.font-size-22{
+	font-size: 22pt;
+}
+.font-size-24{
+	font-size: 24pt;
+}
+.font-size-26{
+	font-size: 26pt;
+}
+
+
+/* ::  Font Transform
+------------------------------------------- */
+.uppercase{
+	text-transform: uppercase;
+}
+.lowercase{
+	text-transform: lowercase;
+}
+
+/* ::  Font Weight
+------------------------------------------- */
+.bold{
+	font-weight: bold;
+}
+
+.normal{
+	font-weight: normal;
+}
+
+/* ::  Text Align
+------------------------------------------- */
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.text-justify {
+	text-align: justify;
+}
+.text-middle{
+	vertical-align:middle;
+}
+.text-top{
+	vertical-align:top;
+}
+.text-bottom{
+	vertical-align:bottom;
+}
+
+/* ::  letter-spacing
+------------------------------------------- */
+.letter-spacing-2{
+	letter-spacing:2px;
+}
+
+/* ::  Display
+------------------------------------------- */
+.display-initial{
+	display:initial;
+}
+
+/* ::  Text Decoration
+------------------------------------------- */
+.underline{
+	text-decoration: underline;
+}
+.strike{
+	text-decoration: line-through;
+}
+
+/* ::  Text indent
+------------------------------------------- */
+.menjorok{
+	text-indent: 10mm;
+}
+
+/* ::  Float
+------------------------------------------- */
+.float-right{
+	float: right;
+}
+.float-left{
+	float: left;
+}
+.float-center{
+	margin: 0 auto;
+}
+.float-initial{
+	float: initial;
+}
+
+/* ::  Width
+------------------------------------------- */
+.width-1{
+	width:1%;
+}
+.width-2{
+	width:2%;
+}
+.width-4{
+	width:4%;
+}
+.width-3{
+	width:3%;
+}
+.width-5{
+	width:5%;
+}
+.width-98{
+	width:97%;
+}
+.width-95{
+	width:95%;
+}
+.width-90{
+	width:90%;
+}
+.width-10{
+	width:10%;
+}
+.width-100{
+	width:100%;
+}
+.width-50{
+	width:50%;
+}
+
+.width-70{
+	width:70%;
+}
+.width-60{
+	width:60%;
+}
+.width-40{
+	width:40%;
+}
+.width-30{
+	width:30%;
+}
+
+.width-20{
+	width:20%;
+}
+.width-80{
+	width:80%;
+}
+
+/* ::  position
+------------------------------------------- */
+.position-absolute{
+	position: absolute;
+}
+
+.position-fixed{
+	position: fixed;
+}
+.position-relative{
+	position: relative;
+}
+
+/* ::  table
+------------------------------------------- */
+table,thead,th,tr,td{
+	vertical-align: text-top;
+	padding: 0 10px;
+	border:1pt solid #000000;
+}
+
+td{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+table {
+    border-collapse: collapse;
+}
+
+/* ::  border
+------------------------------------------- */
+.border-white{
+	border-color: white;
+}
+
+.border-201{
+	border:1pt solid #000000;
+}
+
+.border-full{
+	border:1pt solid #000000;
+	border-right: 1pt solid #000000;
+}
+
+.border-style-solid{
+	border-style: solid;
+}
+.border-style-double{
+	border-style: double;
+}
+
+.border-width-1{
+	border-width:1pt;
+}
+.border-perhatian{
+	border:0.5pt solid #000000;
+	padding: 6px;
+}
+
+.border-black{
+	border-color:1pt #000000;
+}
+.border-kop{
+	border-top: 1pt double #000000;
+}
+
+.border-right{
+	border-right: 1pt solid #000000;
+}
+.border-left{
+	border-left: 1pt solid #000000;
+}
+.border-top{
+	border-top: 1pt solid #000000;
+}
+.border-bottom{
+	border-bottom: 1pt solid #000000;
+}
+
+.border-right-2{
+	border-right: 2pt solid #000000;
+}
+.border-left-2{
+	border-left: 2pt solid #000000;
+}
+.border-top-2{
+	border-top: 2pt solid #000000;
+}
+.border-bottom-2{
+	border-bottom: 2pt solid #000000;
+}
+
+.border-right-3{
+	border-right: 3pt solid #000000;
+}
+.border-left-3{
+	border-left: 3pt solid #000000;
+}
+.border-top-3{
+	border-top: 3pt solid #000000;
+}
+.border-bottom-3{
+	border-bottom: 3pt solid #000000;
+}
+
+.border-right-dashed{
+	border-right: 1pt dashed #808080;
+}
+.border-left-dashed{
+	border-left: 1pt dashed #808080;
+}
+.border-top-dashed{
+	border-top: 1pt dashed #808080;
+}
+.border-bottom-dashed{
+	border-bottom: 1pt dashed #808080;
+}
+
+.border-right-2{
+	border-right: 2pt solid #000000;
+}
+.border-left-2{
+	border-left: 2pt solid #000000;
+}
+.border-top-2{
+	border-top: 2pt solid #000000;
+}
+.border-bottom-2{
+	border-bottom: 2pt solid #000000;
+}
+
+.border-right-double{
+	border-right: black double;
+}
+
+.border-left-double{
+	border-left: black double;
+}
+
+.border-top-double{
+	border-top: black double;
+}
+
+.border-bottom-double{
+	border-bottom: black double;
+}
+
+
+.border-hidden-right{
+	border-right-style: hidden;
+}
+
+.border-hidden-left{
+	border-left-style: hidden;
+}
+
+.border-hidden-top{
+	border-top-style: hidden;
+}
+
+.border-hidden-bottom{
+	border-bottom-style: hidden;
+}
+
+.border-kwitansi{
+	height:76mm;
+	border:1px dotted #000000;
+	margin-bottom: 5mm;
+	padding: 5mm 5mm;
+}
+
+.border-top-dotted{	
+	border-top: 1pt dotted #000000;
+}
+
+.border-top-2px{
+	border-top: solid black 2px; 
+}
+
+/* ::  margin
+------------------------------------------- */
+.margin-auto{
+	margin: auto;
+}
+.margin-5-0-mm{
+	margin:5mm 0mm;
+}
+
+/* ::  Clear
+------------------------------------------- */
+.clear{
+	clear: both;
+}
+
+/* ::  Line
+------------------------------------------- */
+.line-12{
+	line-height: 1.2;
+}
+
+.line-07{
+	line-height: 0.7;
+}
+
+.line-09{
+	line-height: 0.9;
+}
+.line-1{
+	line-height: 1;
+}
+
+.line-14{
+	line-height: 1.4;
+}
+
+.line-onehalf{
+	line-height: 1.5;
+}
+
+.line-19{
+	line-height: 1.9;
+}
+
+.line-double{
+	/* D1 201*/
+	line-height: 2;
+}
+.line-23{
+	line-height: 2.3;
+}
+/* ::  Padding
+------------------------------------------- */
+.padding-2{
+	padding-right: 2px;
+	padding-left: 2px;
+}
+/* ::  Line
+------------------------------------------- */
+.hidden{
+	visibility: hidden;
+}
+
+.z-index--1{
+	z-index: -1;
+}
+
+.parallelogram {
+width: 130mm;
+padding:0mm 5mm;
+-webkit-transform: skew(-20deg);
+   -moz-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+    background: linear-gradient(
+  to bottom,
+  #C0C0C0,
+  #DCDCDC,
+  #C0C0C0,
+  #DCDCDC,
+  #C0C0C0,
+  #DCDCDC,
+  #C0C0C0,
+  #DCDCDC
+);
+    background-size: 100% 20px;
+
+}
+
+.parallelogram_ver2 {
+width: 50mm;
+padding:0mm 5mm;
+margin-left: 5mm;
+-webkit-transform: skew(-20deg);
+   -moz-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+    background: linear-gradient(
+  to bottom,
+  #C0C0C0,
+  #DCDCDC,
+  #C0C0C0,
+  #DCDCDC,
+  #C0C0C0,
+  #DCDCDC,
+  #C0C0C0,
+  #DCDCDC
+);
+    background-size: 100% 20px;
+
+ }
+
+.batas_bidang{
+	padding:0;
+	line-height: 0;
+	margin:0;
+}
+
+.rotate_batas_bidang_barat {
+	margin:0;
+	padding:0;
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.rotate_batas_bidang_timur {
+	margin:0;
+	padding:0;
+/* Safari */
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}

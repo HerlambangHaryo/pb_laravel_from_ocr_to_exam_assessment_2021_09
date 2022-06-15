@@ -1,0 +1,145 @@
+@media print{
+	@page {
+		size:  215mm 330mm ;
+		margin:0;
+	}
+
+	body{
+		margin: 0;
+	}
+
+	.borderer
+	{
+        display: none !important;
+    }
+
+	.font-roman{
+		font-family: "Times New Roman", Times, serif;
+		font-size: 12pt;
+		letter-spacing:0.3pt;
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	.padding-20-20-10-20{
+		max-width:175mm;
+		max-height:300mm;
+		padding:20mm 20mm 10mm 20mm;	
+		margin:auto;
+		page-break-after: always;	
+		background-color: yellow;
+	}
+
+
+	.padding-20{
+		max-width:175mm;
+		max-height:290mm;
+		padding:20mm;	
+		margin:auto;
+		page-break-after: always;	
+		background-color: yellow;
+	}
+
+	.di_201{
+		max-width:195mm;
+		max-height:310mm;
+		padding:10mm;	
+		margin:auto;
+		page-break-after: always;	
+		background-color: yellow;
+	}
+
+	.padding-10{
+		max-width:195mm;
+		max-height:310mm;
+		padding:10mm;	
+		margin:auto;
+		page-break-after: always;
+	}
+
+	.padding-10-portrait{
+		max-width:195mm;
+		padding:10mm;	
+		margin:auto;
+	}
+
+	.padding-20-10{
+		max-width:195mm;
+		max-height:290mm;
+		padding:20mm 10mm;	
+		margin:auto;
+		page-break-after: always;	
+		background-color: yellow;
+	}
+
+	.padding-10-20{
+		max-width:175mm;
+		max-height:310mm;
+		padding:10mm 20mm;	
+		margin:auto;
+		page-break-after: always;	
+		background-color: yellow;
+	}
+
+	.padding-5-15{
+		max-width:185mm;
+		max-height:320mm;
+		padding:5mm 15mm;	
+		margin:auto;
+		page-break-after: always;	
+		background-color: yellow;
+
+	}
+
+	.padding-5-10{
+		max-width:185mm;
+		max-height:320mm;
+		padding:5mm 15mm;
+		margin:auto;
+		page-break-after: always;	
+		background-color: yellow;
+	}
+
+
+	.padding---10{
+		max-width:195mm;
+		max-height:330mm;
+		padding:0mm 10mm;	
+		margin:auto;
+		page-break-after: always;	
+		background-color: yellow;
+	}
+
+	.padding-5-20{
+		max-width:175mm;
+		max-height:320mm;
+		padding:5mm 20mm;	
+		margin:auto;
+		page-break-after: always;	
+		background-color: yellow;
+	}
+
+	.padding-20-15{
+		max-width:185mm;
+		max-height:290mm;
+		padding:20mm 15mm;	
+		margin:auto;
+		page-break-after: always;	
+		background-color: yellow;
+	}
+
+	.padding-10-15{
+		max-width:185mm;
+		max-height:310mm;
+		padding:10mm 15mm;	
+		margin:auto;
+		page-break-after: always;	
+		background-color: yellow;
+	}
+	
+}

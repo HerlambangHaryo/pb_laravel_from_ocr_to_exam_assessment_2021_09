@@ -1,0 +1,24 @@
+@media print{
+	@page {
+		size:  107mm 165mm ;
+		margin:0;
+	}
+
+	body{
+		margin: 0;
+	}
+
+	.borderer
+	{
+        display: none !important;
+    }
+
+	.padding-5{ /*--- v ---*/
+		max-width:97mm;
+		max-height:155mm;
+		padding:5mm;	
+		margin:auto;
+		page-break-after: always;	
+	}
+
+}

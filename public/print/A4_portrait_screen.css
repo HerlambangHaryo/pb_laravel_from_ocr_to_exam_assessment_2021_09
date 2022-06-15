@@ -1,0 +1,20 @@
+@media screen{
+	.borderer{
+		position:absolute;
+		left: 0; 
+	  	right: 0; 
+	  	z-index: -1;
+		border-right:1pt solid #000000;
+		border-left:1pt solid #000000;
+		width: 210mm;
+		margin:auto;
+	}
+}
+/* ::  Page Setup
+------------------------------------------- */
+	.padding-10{
+		width:205mm;
+		padding:10mm 10mm;	
+		margin:auto;
+		page-break-after: always;
+	}

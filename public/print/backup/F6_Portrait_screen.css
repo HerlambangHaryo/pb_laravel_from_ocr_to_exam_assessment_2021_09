@@ -1,0 +1,10 @@
+
+/* ::  Page Setup
+------------------------------------------- */
+.padding-5{ /*--- v ---*/
+	width:97mm;
+	height:155mm;
+	margin:auto;
+	padding:5mm;
+	page-break-after: always;
+}

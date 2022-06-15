@@ -1,0 +1,233 @@
+
+@media print
+{
+    tr {
+        page-break-inside: auto !important;
+    }
+}
+
+/* ::  table
+------------------------------------------- */
+    table {
+        border-collapse: collapse;
+    }
+
+    .page-break-after {
+        page-break-after: always !important;
+    }
+
+    .page-break-before {
+        page-break-before: always !important;
+    }
+/* ::  border
+------------------------------------------- */
+
+    .border-none{
+        border: none !important;
+    }
+
+    .border-white{
+        border-color: white !important;
+    }
+
+    .border-201{
+        border:1pt solid #000000 !important;
+    }
+
+    .border-full{
+        border:1pt solid #000000 !important;
+    }
+
+    .border-style-solid{
+        border-style: solid !important;
+    }
+    .border-style-double{
+        border-style: double !important;
+    }
+
+    .border-width-1{
+        border-width:1pt !important;
+    }
+    .border-perhatian{
+        border:0.5pt solid #000000 !important;
+        padding: 6px !important;
+    }
+
+    .border-black{
+        border-color:1pt #000000 !important;
+    }
+    .border-kop{
+        border-top: 1pt double #000000 !important;
+    }
+
+    .border-right{
+        border-right: 1pt solid #000000 !important;
+    }
+    .border-left{
+        border-left: 1pt solid #000000 !important;
+    }
+    .border-top{
+        border-top: 1pt solid #000000 !important;
+    }
+    .border-bottom{
+        border-bottom: 1pt solid #000000 !important;
+    }
+
+    .border-right-2{
+        border-right: 2pt solid #000000 !important;
+    }
+    .border-left-2{
+        border-left: 2pt solid #000000 !important;
+    }
+    .border-top-2{
+        border-top: 2pt solid #000000 !important;
+    }
+    .border-bottom-2{
+        border-bottom: 2pt solid #000000 !important;
+    }
+
+    .border-right-3{
+        border-right: 3pt solid #000000 !important;
+    }
+    .border-left-3{
+        border-left: 3pt solid #000000 !important;
+    }
+    .border-top-3{
+        border-top: 3pt solid #000000 !important;
+    }
+    .border-bottom-3{
+        border-bottom: 3pt solid #000000 !important;
+    }
+
+    .border-right-dashed{
+        border-right: 1pt dashed #808080 !important;
+    }
+    .border-left-dashed{
+        border-left: 1pt dashed #808080 !important;
+    }
+    .border-top-dashed{
+        border-top: 1pt dashed #808080 !important;
+    }
+    .border-bottom-dashed{
+        border-bottom: 1pt dashed #808080 !important;
+    }
+
+    .border-right-2{
+        border-right: 2pt solid #000000 !important;
+    }
+    .border-left-2{
+        border-left: 2pt solid #000000 !important;
+    }
+    .border-top-2{
+        border-top: 2pt solid #000000 !important;
+    }
+    .border-bottom-2{
+        border-bottom: 2pt solid #000000 !important;
+    }
+
+    .border-right-double{
+        border-right: black double !important;
+    }
+
+    .border-left-double{
+        border-left: black double !important;
+    }
+
+    .border-top-double{
+        border-top: black double !important;
+    }
+
+    .border-bottom-double{
+        border-bottom: black double !important;
+    }
+
+
+    .border-hidden-right{
+        border-right-style: hidden !important;
+    }
+
+    .border-hidden-left{
+        border-left-style: hidden !important;
+    }
+
+    .border-hidden-top{
+        border-top-style: hidden !important;
+    }
+
+    .border-hidden-bottom{
+        border-bottom-style: hidden !important;
+    }
+
+    .border-kwitansi{
+        border:1px dotted #000000;
+        margin-bottom: 5mm;
+        padding: 5mm;
+    }
+
+    .border-top-dotted{	
+        border-top: 1pt dotted #000000 !important;
+    }
+
+    .border-color-grey{
+        border: 1px solid #454545 !important;
+    }
+
+    .border-right-grey{
+        border-right: 1pt solid #454545 !important;
+    }
+    .border-left-grey{
+        border-left: 1pt solid #454545 !important;
+    }
+    .border-top-grey{
+        border-top: 1pt solid #454545 !important;
+    }
+    .border-bottom-grey{
+        border-bottom: 1pt solid #454545 !important;
+    }
+
+/* ::  table-bordered
+------------------------------------------- */
+    /*.table-bordered {
+        border: 1px solid #454545;
+    }*/
+
+    .table-bordered th,
+    .table-bordered td {
+        border: 1px solid #454545;
+    }
+
+    .table-bordered thead th,
+    .table-bordered thead td {
+        border-bottom-width: 2px;
+    }
+
+
+/* ::  vertical-align
+------------------------------------------- */
+    .vertical-align-baseline {
+        vertical-align: baseline;
+    }
+
+    .vertical-align-top {
+        vertical-align: text-top;
+    }
+
+    .vertical-align-bottom {
+        vertical-align: text-bottom;
+    }
+
+    .vertical-align-middle {
+        vertical-align: middle;
+    }
+    
+    .vertical-align-sub {
+        vertical-align: sub;
+    }
+
+    .vertical-align-super {
+        vertical-align: super;
+    }
+
+    .border-top-2-biru{
+        border-top: 2pt solid #AED6F1 !important;
+    }

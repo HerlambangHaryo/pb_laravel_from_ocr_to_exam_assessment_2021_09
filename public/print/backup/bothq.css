@@ -1,0 +1,173 @@
+@media print{
+		
+
+	thead {display: table-header-group;}
+}
+
+/* ::  test inputan
+------------------------------------------- */
+.test{
+	z-index: -1;
+}
+.page-break-after-always{
+	page-break-before: always;
+}
+.bg-yellow{
+	background-color: yellow;
+}
+.blue{
+	color: blue;
+}
+.red{
+	color: red;
+}
+.background-blue{
+	background-color: blue;
+	opacity: 0,5;
+}
+.background-grey{
+	background-color: grey;
+}
+.background-green{
+	background-color: green;
+}
+.background-yellow{
+	background-color: yellow;
+}
+.box_l{
+	left: 250px;
+    top: 15px;
+}
+.box_r{
+	right: 850px;
+    top: 15px;
+}
+.test1{
+	position: absolute;
+	display: inline;
+	left: 100px;
+	top: 100px;
+}
+.test2{
+	border-color: 1pt solid red !important;
+}
+/* ::  initialize
+------------------------------------------- */
+body{
+	margin:0pt;
+}
+
+/* ::  Specialize
+------------------------------------------- */
+.bidang-sket{
+	border-style:double;
+	border-width:3pt;
+	height:140mm;
+}
+.bidang-sket-cover{
+	border-style:double;
+	border-width:3pt;
+	height:70mm;
+}
+
+
+
+.helper-201{
+	padding-height:0;
+}
+
+
+
+
+.parallelogram {
+width: 130mm;
+padding:0mm 5mm;
+-webkit-transform: skew(-20deg);
+   -moz-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+    background: linear-gradient(
+  to bottom,
+  #C0C0C0,
+  #DCDCDC,
+  #C0C0C0,
+  #DCDCDC,
+  #C0C0C0,
+  #DCDCDC,
+  #C0C0C0,
+  #DCDCDC
+);
+    background-size: 100% 20px;
+
+}
+
+.parallelogram_ver2 {
+width: 50mm;
+padding:0mm 5mm;
+margin-left: 5mm;
+-webkit-transform: skew(-20deg);
+   -moz-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+    background: linear-gradient(
+  to bottom,
+  #C0C0C0,
+  #DCDCDC,
+  #C0C0C0,
+  #DCDCDC,
+  #C0C0C0,
+  #DCDCDC,
+  #C0C0C0,
+  #DCDCDC
+);
+    background-size: 100% 20px;
+
+ }
+
+.batas_bidang{
+	padding:0;
+	line-height: 0;
+	margin:0;
+}
+
+.rotate_batas_bidang_barat {
+	margin:0;
+	padding:0;
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.rotate_batas_bidang_timur {
+	margin:0;
+	padding:0;
+/* Safari */
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+
+tr:nth-child(odd) {background: #E6E6FA}
+
